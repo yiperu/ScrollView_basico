@@ -13,11 +13,13 @@
 @end
 
 @implementation ViewController
+@synthesize elScrollerView;
 
 - (void)viewDidLoad
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
+    elScrollerView.contentSize = CGSizeMake(280, 700);
 }
 
 - (void)didReceiveMemoryWarning
